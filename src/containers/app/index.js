@@ -20,10 +20,10 @@ class App extends Component {
     render() {
         return (
             <Fragment>
-                <BrowserRouter basename={'E:\jurista-downloadable\jurista-react\react-app'}>
+    
                     <ToastContainer autoClose={2500} position="top-center" />
                     <Switch>
-                        <Route exact path="/" component={Index} />
+                        
                         <Route exact path="/" component={HomePageOne} />
                         <Route exact path="/home-two" component={HomePageTwo} />
                         <Route exact path="/home-three" component={HomePageThree} />
